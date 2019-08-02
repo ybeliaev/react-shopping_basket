@@ -1,4 +1,12 @@
+body {
+  background-color: rgb(243, 224, 190);
+  color: hsl(204, 21%, 43%);
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+.basket-shop i {
+  font-size: 30px;
+  color: ;
 }
