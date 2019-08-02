@@ -10,11 +10,12 @@ body {
   position: relative;
 }
 .basket-shop i {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .basket-shop span {
   position: absolute;
-  top: 12%;
+  top: 13%;
   right: 49.5%;
+  color: hsl(5, 100%, 69%);
 }
