@@ -15,7 +15,12 @@ body {
 
 .basket-shop span {
   position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 25px;
+  background-color: hsl(0, 0%, 100%);
   top: 13%;
-  right: 49.5%;
+  right: 48.5%;
   color: hsl(5, 100%, 69%);
 }
