@@ -4,8 +4,6 @@ const ItemList = () => {
   return (
     <div>
       <ItemListElement />
-      <button>+</button>
-      <button>-</button>
     </div>
   );
 };
