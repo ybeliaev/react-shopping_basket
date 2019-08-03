@@ -16,7 +16,7 @@ export default class App extends React.Component {
       <div className="App">
         <h2>Работа с корзиной товара</h2>
         <BasketShop />
-        <ItemList />
+        <ItemList itemDate={this.state.inputData} />
       </div>
     );
   }

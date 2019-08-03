@@ -2,9 +2,20 @@ body {
   background-color: rgb(243, 224, 190);
   color: hsl(204, 21%, 43%);
 }
+ul {
+  list-style: none;
+
+  text-align: left;
+}
+ul li {
+  margin: 10px;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+.list-item span {
+  margin-right: 20px;
 }
 .basket-shop {
   position: relative;
