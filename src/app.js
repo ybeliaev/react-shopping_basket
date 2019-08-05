@@ -1,6 +1,7 @@
 import React from "react";
 import BasketShop from "./basketShop";
 import ItemList from "./itemList";
+import SumElement from "./sumCost";
 
 export default class App extends React.Component {
   state = {
@@ -17,6 +18,7 @@ export default class App extends React.Component {
         <h2>Работа с корзиной товара</h2>
         <BasketShop />
         <ItemList itemDate={this.state.inputData} />
+        <SumElement />
       </div>
     );
   }

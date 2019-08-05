@@ -42,3 +42,9 @@ ul li {
   right: 48.5%;
   color: hsl(5, 100%, 69%);
 }
+.sum-input {
+  text-align: left;
+  margin: 0 10px 10px 10px;
+  padding-left: 40px;
+  width: 40%;
+}
