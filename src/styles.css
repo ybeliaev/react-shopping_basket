@@ -4,7 +4,7 @@ body {
 }
 ul {
   list-style: none;
-
+  width: 40%;
   text-align: left;
 }
 ul li {
@@ -14,8 +14,15 @@ ul li {
   font-family: sans-serif;
   text-align: center;
 }
+.list-item {
+  display: flex;
+  flex: 1;
+}
 .list-item span {
   margin-right: 20px;
+}
+.list-item-brand {
+  flex: 1;
 }
 .basket-shop {
   position: relative;

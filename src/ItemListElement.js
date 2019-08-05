@@ -5,8 +5,10 @@ const ItemListElement = ({ brand, cost }) => {
     <div className="list-item">
       <span className="list-item-brand">Смартфон {brand}:</span>
       <span className="list-item-cost">{cost}$</span>
-      <button>+</button>
-      <button>-</button>
+      <div className="wrapper-btn">
+        <button>+</button>
+        <button>-</button>
+      </div>
     </div>
   );
 };
