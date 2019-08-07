@@ -6,8 +6,8 @@ const ItemListElement = ({ brand, cost }) => {
       <span className="list-item-brand">Смартфон {brand}:</span>
       <span className="list-item-cost">{cost}$</span>
       <div className="wrapper-btn">
-        <button>+</button>
-        <button>-</button>
+        <button onClick={increase}>+</button>
+        <button onClick={decrease}>-</button>
       </div>
     </div>
   );
