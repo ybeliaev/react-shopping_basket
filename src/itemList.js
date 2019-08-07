@@ -5,7 +5,11 @@ const ItemList = ({ itemDate }) => {
     const { id, ...itemProps } = item;
     return (
       <li key={id} className="list-item">
-        <ItemListElement {...itemProps} increaseItem={() => console.log(id)} />
+        <ItemListElement
+          {...itemProps}
+          increaseItem={() => console.log(id)}
+          decreaseItem={() => console.log(id + 100)}
+        />
       </li>
     );
   });
